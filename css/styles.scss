@@ -3,6 +3,9 @@
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
+$primary:       #FFF387;
+$secondary:     #1E1E1B;
+$light:         #EFEFE7;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -26,13 +29,15 @@ body{ background-color: #EFEFE7}
 
 /* TEKST */
 
-
 .montserrat-misse{
                font-family: "Montserrat", sans-serif;
                font-optical-sizing: auto;
                font-weight: 500;
                font-style: normal;
              }
+
+
+
 
 /* NAV BAR*/
 
@@ -77,3 +82,9 @@ body {
 .custom-footer{
   background-color: #FFF387;
 }
+
+/*BILLEDER*/
+
+
+
+
