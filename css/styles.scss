@@ -18,3 +18,57 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+/* MOBIL */
+
+body{ background-color: #EFEFE7}
+
+
+/* TEKST */
+
+
+.montserrat-misse{
+               font-family: "Montserrat", sans-serif;
+               font-optical-sizing: auto;
+               font-weight: 500;
+               font-style: normal;
+             }
+
+/* NAV BAR*/
+
+body {
+  padding-top: 70px;
+}
+
+.navbar-custom {
+  background-color: #FFF387;
+  height: 70px;
+}
+
+.navbar-brand img {
+  height: 60px;
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #1E1E1B;
+  font-weight: 500;
+  margin-right: 20px ;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.offcanvas-custom {
+  background-color: #FFF387;
+}
+
