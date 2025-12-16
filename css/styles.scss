@@ -22,12 +22,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-/* MOBIL */
+
+
+
+/* MOBIL og CP */
 
 body{ background-color: #EFEFE7}
 
 
-/* TEKST */
+
+
+
+/* FONT TYPE */
 
 .montserrat-misse{
                font-family: "Montserrat", sans-serif;
@@ -35,6 +41,8 @@ body{ background-color: #EFEFE7}
                font-weight: 500;
                font-style: normal;
              }
+
+
 
 
 
@@ -77,13 +85,48 @@ body {
   background-color: #FFF387;
 }
 
+
+
+
+
+
 /*FOOTER*/
 
 .custom-footer{
   background-color: #FFF387;
 }
 
-/*BILLEDER*/
+
+
+
+
+
+/*KNAPPER*/
+
+.custom-btn {
+  transition: all 0.3s ease;
+  font-size: 1rem; /* standard størrelse */
+}
+
+@media (min-width: 768px) {
+  .custom-btn {
+    font-size: 1.1rem; /* lidt større på tablets og op */
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-btn {
+    font-size: 1.2rem; /* endnu større på desktop */
+  }
+}
+
+.custom-btn:hover {
+  transform: scale(1.05); /* gør knappen lidt større ved hover */
+  background-color: #1E1E1B; /* gul farve – kan justeres */
+  color: #FFF387; /* sikrer kontrast */
+}
+
+
 
 
 
