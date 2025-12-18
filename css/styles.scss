@@ -6,6 +6,7 @@ $link-decoration: none;
 $primary:       #FFF387;
 $secondary:     #1E1E1B;
 $light:         #EFEFE7;
+$info: #aaa87b;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -83,6 +84,9 @@ body {
 
 .offcanvas-custom {
   background-color: #FFF387;
+
+
+
 }
 
 
@@ -128,6 +132,25 @@ body {
 
 
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; /* fjerner standardikonet */
+}
+
+.carousel-control-prev-icon::after {
+  content: '‹'; /* venstre pil */
+  font-size: 40px;
+  color: black; /* gør pilen sort */
+}
+
+.carousel-control-next-icon::after {
+  content: '›'; /* højre pil */
+  font-size: 40px;
+  color: black; /* gør pilen sort */
+}
 
 
-
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon {
+  filter: invert(100%);
+}
